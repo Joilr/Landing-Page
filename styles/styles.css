@@ -1,0 +1,25 @@
+.myPage {
+  display: flex;
+  flex-direction: column; /* Stack sections vertically */
+  height: 100vh; /* Fill the entire viewport height */
+}
+.myPage .section1 {
+  background-color: #1f2937;
+  flex: 5; /* Section1 takes up 1 part of available space */
+}
+.myPage .section2 {
+  background-color: #ffffff;
+  flex: 4; /* Section2 takes up 2 parts of available space */
+}
+.myPage .section3 {
+  background-color: #e5e7eb;
+  flex: 4; /* Section3 takes up 1 part of available space */
+}
+.myPage .section4 {
+  background-color: #ffffff;
+  flex: 3; /* Section4 takes up 3 parts of available space */
+}
+.myPage .section5 {
+  background-color: #1f2937;
+  flex: 1; /* Section5 takes up 2 parts of available space */
+}/*# sourceMappingURL=styles.css.map */
