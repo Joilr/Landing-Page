@@ -17,6 +17,10 @@
   color: #ffffff;
   font-size: 24px;
 }
+.section1 nav {
+  margin-left: -125px;
+  margin-right: 125px;
+}
 .section1 ul {
   list-style: none;
 }
@@ -33,15 +37,20 @@
 .section1 main {
   display: flex;
   justify-content: space-evenly;
+  margin-top: 75px;
+  margin-bottom: 100px;
 }
 .section1 .main-left-side {
   display: flex;
   flex-direction: column;
+  margin-right: -450px;
+  margin-left: 25px;
 }
 .section1 h2 {
   color: #ffffff;
   font-size: 48px;
   font-weight: bold;
+  margin-top: 0px;
   margin-bottom: 0px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
@@ -65,11 +74,22 @@
 }
 .section1 .main-right-side {
   display: flex;
+  margin-right: 175px;
+}
+.section1 img {
+  width: 500px;
 }
 
 .section2 {
   background-color: #ffffff;
   flex: 4;
+}
+.section2 .blue-box {
+  width: 100px; /* Adjust the width as needed */
+  height: 100px; /* Adjust the height as needed */
+  background-color: white;
+  border: 4px solid #3882F6; /* Adjust the border width and color as needed */
+  border-radius: 10px; /* Adjust the border-radius for rounded corners */
 }
 
 .section3 {
