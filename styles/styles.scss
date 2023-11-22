@@ -1,30 +1,103 @@
 .myPage {
   display: flex;
-  flex-direction: column; /* Stack sections vertically */
-  height: 100vh; /* Fill the entire viewport height */
+  flex-direction: column; 
+  height: 100vh; 
 
+}
+
+  //section 1
   .section1 {
-    background-color: #1f2937;
-    flex: 5; /* Section1 takes up 1 part of available space */
+      background-color: #1f2937;
+      flex: 5;
+      justify-content: space-evenly;
+      
+      header {
+          display: flex;
+          justify-content: space-evenly;
+      }
+
+      h1 {
+          color: #ffffff;
+          font-size: 24px;
+      }
+
+      ul {
+          list-style: none;
+      }
+
+      li {
+          display: inline-block;
+          margin-right: 10px;
+          font-size: 18px;
+      }
+
+      li a {
+          text-decoration: none;
+          color: #ffffff;
+          text-transform: lowercase;
+      }
+
+      main{
+        display: flex;
+        justify-content: space-evenly;
+      }
+
+      .main-left-side {
+        display: flex;
+        flex-direction: column;
+      } 
+      
+      h2 {
+        color: #ffffff;
+        font-size: 48px;
+        font-weight: bold;
+        margin-bottom: 0px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+
+      p {
+        margin-top: 0px;
+        color: #e5e7eb;
+        font-size: 18px;
+        margin-bottom: 0px;
+      }
+
+      button{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        width: 30%;
+        height: 30px;
+        margin-top: 5px;
+        border-radius: 8px;
+        background-color: #3882F6;
+        color: #ffffff;
+        font-weight: bold;
+      }
+
+      .main-right-side {
+        display: flex;
+      }
+
+
   }
 
   .section2 {
     background-color: #ffffff;
-    flex: 4; /* Section2 takes up 2 parts of available space */
+    flex: 4; 
   }
 
   .section3 {
     background-color: #e5e7eb;
-    flex: 4; /* Section3 takes up 1 part of available space */
+    flex: 4; 
   }
 
   .section4 {
     background-color: #ffffff;
-    flex: 3; /* Section4 takes up 3 parts of available space */
+    flex: 3; 
   }
 
   .section5 {
     background-color: #1f2937;
-    flex: 1; /* Section5 takes up 2 parts of available space */
+    flex: 1; 
   }
-}
