@@ -1,7 +1,6 @@
 .myPage {
   display: flex;
   flex-direction: column; 
-  height: 100vh; 
 
 }
 
@@ -9,7 +8,6 @@
   .section1 {
       background-color: #1f2937;
       flex: 5;
-      justify-content: space-evenly;
       
       header {
           display: flex;
@@ -99,28 +97,137 @@
   .section2 {
     background-color: #ffffff;
     flex: 4; 
+    margin-top: 10px;
+    margin-right: 200px;
+
+    h1{
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+      font-weight: bolder;
+      font-size: 36px;
+    }
+
+    .box-text-group{
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+      margin-bottom: 100px;
+    }
+
+    .box-text{
+      margin-left: 40px;
+    }
 
     .blue-box{
-        width: 100px; /* Adjust the width as needed */
-        height: 100px; /* Adjust the height as needed */
+        width: 125px; /* Adjust the width as needed */
+        height: 125px; /* Adjust the height as needed */
         background-color: white;
         border: 4px solid #3882F6; /* Adjust the border width and color as needed */
         border-radius: 10px; /* Adjust the border-radius for rounded corners */
     }
 
+    .spaced-text {
+      margin-left: 20px; /* Adjust the value as needed */
   }
 
+  }
+
+  //section3
   .section3 {
     background-color: #e5e7eb;
     flex: 4; 
+
+    .text-s3{
+      margin-right: 150px;
+    }
+
+    h1{
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+      font-weight: lighter;
+      font-style: italic;
+      margin-bottom: 5px;
+      margin-top: 100px;
+    }
+
+    h2{
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+      margin-left: 450px;
+      margin-top: 5px;
+      margin-bottom: 85px;
+    }
+
   }
 
+  //section4
   .section4 {
     background-color: #ffffff;
     flex: 3; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+    .blue-ad{
+      display: flex;
+      justify-content: center;
+      align-items: center;   
+      margin-top: 100px;
+      margin-bottom: 100px;
+      margin-right: 150px;
+      background-color: #3882F6;
+      width: 850px;
+      height: 150px;
+      border-radius: 10px;
+    }
+
+    .ad-text{
+      color: #ffffff;
+    }
+    
+    h1{
+      font-size: 24px;
+    }
+
+    h2{
+      font-size: 16px;
+      font-weight: lighter;
+    }
+
+    .ad-button{
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+      width: 8%;
+      height: 30px;
+      border-radius: 8px;
+      border-color: #ffffff;
+      background-color: #3882F6;
+      border: 3px solid white;
+      color: #ffffff;
+      font-weight: bold;
+      margin-left: 150px;
+    }
+
   }
 
+  //section5
   .section5 {
     background-color: #1f2937;
     flex: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+    h1{
+      margin-top: 35px;
+      margin-bottom: 35px;
+      margin-right: 100px;
+      font-size: medium;
+      font-weight: lighter;
+      color: #ffffff;
+    }
   }
