@@ -11,21 +11,23 @@
 
   //section 1
   .section1 {
+      display: flex;
+      flex-direction: column;
       background-color: #1f2937;
       flex: 5;
       
       header {
           display: flex;
-          justify-content: space-evenly;
+          justify-content: center;
       }
 
       h1 {
           color: #ffffff;
           font-size: 24px;
+          margin-right: 375px;
       }
 
       nav{
-        margin-left: -125px;
         margin-right: 125px;
       }
 
@@ -46,14 +48,13 @@
       }
 
       main{
-        display: flex;
-        justify-content: space-evenly;
+      @include flex-center;
         margin-top: 75px;
         margin-bottom: 100px;
       }
 
       .main-left-side {
-        margin-right: -450px;
+        margin-right: 25px; 
         margin-left: 25px;
       } 
       
@@ -74,7 +75,6 @@
       }
 
       button{
-   
         width: 30%;
         height: 30px;
         margin-top: 5px;

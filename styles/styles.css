@@ -4,19 +4,21 @@
 }
 
 .section1 {
+  display: flex;
+  flex-direction: column;
   background-color: #1f2937;
   flex: 5;
 }
 .section1 header {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 .section1 h1 {
   color: #ffffff;
   font-size: 24px;
+  margin-right: 375px;
 }
 .section1 nav {
-  margin-left: -125px;
   margin-right: 125px;
 }
 .section1 ul {
@@ -34,12 +36,13 @@
 }
 .section1 main {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
   margin-top: 75px;
   margin-bottom: 100px;
 }
 .section1 .main-left-side {
-  margin-right: -450px;
+  margin-right: 25px;
   margin-left: 25px;
 }
 .section1 h2 {
