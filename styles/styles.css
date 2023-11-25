@@ -16,7 +16,8 @@
 .section1 h1 {
   color: #ffffff;
   font-size: 24px;
-  margin-right: 375px;
+  margin-right: 15rem;
+  margin-left: 8rem;
 }
 .section1 nav {
   margin-right: 125px;
@@ -43,7 +44,6 @@
 }
 .section1 .main-left-side {
   margin-right: 25px;
-  margin-left: 25px;
 }
 .section1 h2 {
   color: #ffffff;
@@ -69,11 +69,7 @@
   font-weight: bold;
 }
 .section1 .main-right-side {
-  display: flex;
-  margin-right: 175px;
-}
-.section1 img {
-  width: 500px;
+  margin-left: 40px;
 }
 
 .section2 {
